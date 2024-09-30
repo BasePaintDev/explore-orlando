@@ -110,7 +110,7 @@ main h2 {
   height: 200px;
   border-radius: 50%;
   border: 2px solid #ffd289;
-  background-image: url("./images/avatarSquare.png");
+  background-image: url("../images/avatarSquare.png");
   background-size: cover;
   background-position: center;
   transition: all 500ms;
@@ -118,7 +118,7 @@ main h2 {
 
 #avatar-img:hover {
   animation: spin 1500ms linear infinite;
-  background-image: url("./images/avatarSpinning.png");
+  background-image: url("../images/avatarSpinning.png");
 }
 
 @keyframes spin {
