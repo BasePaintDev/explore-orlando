@@ -1,0 +1,19 @@
+{
+	"name": "Default Linux Universal",
+	"dockerFile": "Dockerfile",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ritwickdey.LiveServer",
+				"esbenp.prettier-vscode"
+			],
+			"settings": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.formatOnSave": true
+			}
+		}
+	},
+	
+	"postCreateCommand": "nodemon sandbox.js"
+}
